@@ -1,0 +1,10 @@
+body { font-family: Arial; text-align: center; background: #0f172a; color: white; }
+#grid { display: grid; justify-content: center; margin: 20px auto; }
+.cell { width: 25px; height: 25px; border: 1px solid #1e293b; }
+.start { background: green; }
+.end { background: red; }
+.wall { background: #334155; }
+.visited { background: #38bdf8; }
+.path { background: yellow; }
+select, button { margin: 5px; padding: 10px; border-radius: 6px; border: none; }
+

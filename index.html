@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Pathfinding Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Advanced Pathfinding Visualizer</h1>
+
+  <select id="algo">
+    <option value="bfs">BFS</option>
+    <option value="dfs">DFS</option>
+    <option value="dijkstra">Dijkstra</option>
+    <option value="astar">A*</option>
+  </select>
+
+  <button onclick="runAlgorithm()">Start</button>
+  <button onclick="resetGrid()">Reset</button>
+
+  <div id="grid"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
